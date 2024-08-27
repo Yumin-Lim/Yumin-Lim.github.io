@@ -1,11 +1,10 @@
 // -------------- THEME SWITCHER -------------- //
 @font-face {
-	font-family: 'pixelify-sans';
-	src: url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Pixelify Sans';
+  src: url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap'); /* This URL is a placeholder */
+  font-weight: 400; /* Default weight */
+  font-style: normal;
 }
-
 
 @mixin dark-appearance {
   filter: invert(1);
@@ -33,7 +32,7 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: 'pixelify-sans';
+  font-family: 'Pixelify Sans';
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
