@@ -1,4 +1,12 @@
 // -------------- THEME SWITCHER -------------- //
+@font-face {
+	font-family: 'pixelify-sans';
+	src: url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 @mixin dark-appearance {
   filter: invert(1);
   img {
@@ -25,7 +33,7 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: monospace;
+  font-family: 'pixelify-sans';
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
