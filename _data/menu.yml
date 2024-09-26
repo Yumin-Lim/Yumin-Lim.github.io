@@ -7,7 +7,7 @@ entries:
       - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
       - title: github repo
         url: https://github.com/Yumin-Lim
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/Yumin-Lim'>many others</a>"
+    
 
   - title: all posts
     post_list:
@@ -25,12 +25,3 @@ entries:
 
   - title: rss
     url: feed.xml
-  
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
- 
